@@ -6,4 +6,6 @@ let year = currentDate.getFullYear();
 
 let formattedDate = day + "/" + month + "/" + year;
 
-document.getElementById("sytem-time").innerHTML = formattedDate;
+//document.getElementById("systemtime").innerHTML = ("hey today is : "+formattedDate);
+var inputtask = document.getElementById("task-inputer").innerText;
+console.log(inputtask);
